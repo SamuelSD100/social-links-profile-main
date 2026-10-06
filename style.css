@@ -1,0 +1,37 @@
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/*seletor global * = serve para selecionar todos os elementos*/
+/*reset de estilos padroes de navegador*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: "inter", sans-serif ;
+}
