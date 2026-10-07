@@ -32,6 +32,10 @@
     box-sizing: content-box;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
     font-family: "inter", sans-serif ;
     background-color:  hsl(0, 0%, 8%);
@@ -40,15 +44,19 @@ body{
 main{
     height: 100%;
     width: 100%;
+
+    display: grid;
+
 }
 section{
     background-color: hsl(0, 0%, 12%);
     width: 100%;
     max-width: 320px;
     border-radius: 16px;
-    padding: 20px;
+    padding: 24px;
 
     text-align: center;
+
 }
 
 img{
@@ -77,18 +85,24 @@ p{
 }
 
 li{
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
+li:last-child{
+    margin-bottom: 0;
+}
+
+
 a{
-    background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    display: block;
-    width: 100%;
-    border-radius: 8px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    background-color:hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    font-weight:600px;
+    display:block;
+    width:100%;
+    border-radius:8px;
+
+    padding-top:14px;
+    padding-bottom:14px;
 }
 
 a:hover{
