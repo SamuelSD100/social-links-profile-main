@@ -1,5 +1,5 @@
 @font-face {
-    font-family: inter;
+    font-family: "inter";
     src: url("./assets/fonts/static/Inter-Regular.ttf");
     font-weight: 400;
     font-style: normal;
@@ -18,7 +18,6 @@
     font-weight: 700;
     font-style: normal;
 }
-
 
 
 /*seletor global * = serve para selecionar todos os elementos*/
@@ -45,7 +44,7 @@ body{
 main{
     height: 100%;
     width: 100%;
-    
+
     display: grid;
     place-items: center;
 
@@ -98,7 +97,7 @@ li:last-child{
 a{
     background-color:hsl(0, 0%, 20%);
     color:hsl(0, 0%, 100%);
-    font-weight:600px;
+    font-weight:600;
     display:block;
     width:100%;
     border-radius:8px;
